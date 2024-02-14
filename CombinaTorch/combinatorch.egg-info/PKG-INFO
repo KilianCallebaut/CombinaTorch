@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: combinatorch
+Version: 0.1
+Summary: A Python framework built on top of PyTorch for building Multi-dataset, Multi-Task deep learning pipelines
+Home-page: https://github.com/yourusername/mypackage
+Author: Kilian Callebaut
+Author-email: kilian.callebaut@gmail.com
+Requires-Dist: dcase_util==0.2.16
+Requires-Dist: joblib==1.0.0
+Requires-Dist: librosa==0.8.0
+Requires-Dist: matplotlib==3.3.0
+Requires-Dist: numpy>=1.19.5
+Requires-Dist: pandas>=1.2.0
+Requires-Dist: PySoundFile==0.9.0.post1
+Requires-Dist: python_speech_features==0.6
+Requires-Dist: scikit_learn>=0.24.0
+Requires-Dist: scikit_multilearn>=0.2.0
+Requires-Dist: scipy>=1.6.0
+Requires-Dist: setuptools==41.2.0
+Requires-Dist: SoundFile==0.10.3.post1
+Requires-Dist: tensorflow_datasets==4.2.0
+Requires-Dist: torch>=1.7.0

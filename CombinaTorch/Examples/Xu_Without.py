@@ -121,10 +121,8 @@ def main(argv):
     #                               learning_rate=0.001,
     #                               batch_size=32,
     #                               num_epochs=200)
-
-
-if __name__ == "__main__":
-    try:
-        sys.exit(main(sys.argv))
-    except (ValueError, IOError) as e:
-        sys.exit(e)
+    if __name__ == "__main__":
+        try:
+            sys.exit(main(sys.argv))
+        except (ValueError, IOError) as e:
+            sys.exit(e)
