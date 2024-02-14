@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: CombinaTorch
+Version: 0.1
+Summary: A Python framework built on top of PyTorch for building Multi-dataset, Multi-Task deep learning pipelines
+Home-page: https://github.com/yourusername/mypackage
+Author: Kilian Callebaut
+Author-email: kilian.callebaut@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
