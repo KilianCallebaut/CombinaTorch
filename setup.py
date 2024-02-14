@@ -10,6 +10,6 @@ setup(
     description='A Python framework built on top of PyTorch for building Multi-dataset, Multi-Task deep learning pipelines',
     author='Kilian Callebaut',
     author_email='kilian.callebaut@gmail.com',
-    url='https://github.com/yourusername/mypackage',  # Optional
+    url='https://github.com/KilianCallebaut/CombinaTorch',  # Optional
     install_requires=requirements,
 )
