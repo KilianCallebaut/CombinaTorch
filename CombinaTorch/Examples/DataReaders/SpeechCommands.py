@@ -2,9 +2,9 @@ import os
 
 import tensorflow_datasets as tfds
 
-from DataReaders.DataReader import DataReader
-from Tasks.Task import MultiClassTask
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.DataReader import DataReader
+from CombinaTorch.Tasks.Task import MultiClassTask
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 
 
 class SpeechCommands(DataReader):

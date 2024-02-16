@@ -4,12 +4,12 @@ from random import randrange
 
 import torch
 
-from DataReaders.ExtractionMethod import  MelSpectrogramExtractionMethod
-from MultiTask.MultiTaskHardSharingConvolutional import MultiTaskHardSharingConvolutional
-from Tasks.TaskDatasets.ConcatTaskDataset import ConcatTaskDataset
-from Tasks.Task import MultiClassTask
-from Tasks.TaskDatasets.TaskDataset import TaskDataset
-from Training.Training import Training
+from CombinaTorch.DataReaders.ExtractionMethod import  MelSpectrogramExtractionMethod
+from CombinaTorch.MultiTask.MultiTaskHardSharingConvolutional import MultiTaskHardSharingConvolutional
+from CombinaTorch.Tasks.TaskDatasets.ConcatTaskDataset import ConcatTaskDataset
+from CombinaTorch.Tasks.Task import MultiClassTask
+from CombinaTorch.Tasks.TaskDatasets.TaskDataset import TaskDataset
+from CombinaTorch.Training.Training import Training
 
 
 def test_single_task_Multi_Class(argv):

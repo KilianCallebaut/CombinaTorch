@@ -14,7 +14,7 @@ from torch import nn, optim
 from torch.utils.data import Dataset
 from torch.utils.tensorboard import SummaryWriter
 
-from MultiTask.ParkClassifier import ParkClassifier
+from CombinaTorch.MultiTask.ParkClassifier import ParkClassifier
 
 drive = r"E:/"
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

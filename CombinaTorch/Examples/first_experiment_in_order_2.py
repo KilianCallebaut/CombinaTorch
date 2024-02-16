@@ -5,20 +5,20 @@ import sys
 
 import torch
 
-from Config.config_reader import *
-from DataReaders.ASVspoof2015 import ASVspoof2015
-from DataReaders.ChenAudiosetDataset import ChenAudiosetDataset
-from DataReaders.DCASE2017_SE import DCASE2017_SE
-from DataReaders.DCASE2017_SS import DCASE2017_SS
-from DataReaders.ExtractionMethod import MelSpectrogramExtractionMethod, MFCCExtractionMethod
-from DataReaders.FSDKaggle2018 import FSDKaggle2018
-from DataReaders.Ravdess import Ravdess
-from DataReaders.SpeechCommands import SpeechCommands
-from MultiTask.MultiTaskHardSharing import MultiTaskHardSharing
-from MultiTask.MultiTaskHardSharingConvolutional import MultiTaskHardSharingConvolutional
-from MultiTask.MultiTaskModelFactory import MultiTaskModelFactory
-from Tasks.TrainingSetCreator import ConcatTrainingSetCreator
-from Training.Training import Training
+from CombinaTorch.Config.config_reader import *
+from CombinaTorch.DataReaders.ASVspoof2015 import ASVspoof2015
+from CombinaTorch.DataReaders.ChenAudiosetDataset import ChenAudiosetDataset
+from CombinaTorch.DataReaders.DCASE2017_SE import DCASE2017_SE
+from CombinaTorch.DataReaders.DCASE2017_SS import DCASE2017_SS
+from CombinaTorch.DataReaders.ExtractionMethod import MelSpectrogramExtractionMethod, MFCCExtractionMethod
+from CombinaTorch.DataReaders.FSDKaggle2018 import FSDKaggle2018
+from CombinaTorch.DataReaders.Ravdess import Ravdess
+from CombinaTorch.DataReaders.SpeechCommands import SpeechCommands
+from CombinaTorch.MultiTask.MultiTaskHardSharing import MultiTaskHardSharing
+from CombinaTorch.MultiTask.MultiTaskHardSharingConvolutional import MultiTaskHardSharingConvolutional
+from CombinaTorch.MultiTask.MultiTaskModelFactory import MultiTaskModelFactory
+from CombinaTorch.Tasks.TrainingSetCreator import ConcatTrainingSetCreator
+from CombinaTorch.Training.Training import Training
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 drive = 'E'

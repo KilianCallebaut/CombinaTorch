@@ -4,10 +4,10 @@ from typing import Optional, List
 
 from sklearn.model_selection import BaseCrossValidator
 
-from DataReaders.DataReader import DataReader
-from DataReaders.ExtractionMethod import ExtractionMethod
-from Tasks.ConcatTaskDataset import ConcatTaskDataset
-from Tasks.TaskDataset import TaskDataset
+from CombinaTorch.DataReaders.DataReader import DataReader
+from CombinaTorch.DataReaders.ExtractionMethod import ExtractionMethod
+from CombinaTorch.Tasks.ConcatTaskDataset import ConcatTaskDataset
+from CombinaTorch.Tasks.TaskDataset import TaskDataset
 
 
 class ConcatTrainingSetCreator:

@@ -4,8 +4,8 @@ from sklearn.model_selection._split import BaseCrossValidator, KFold
 from sklearn.preprocessing import LabelEncoder
 from skmultilearn.model_selection import IterativeStratification
 
-from DataReaders.ExtractionMethod import ExtractionMethod
-from Tasks.TaskDataset import TaskDataset
+from CombinaTorch.DataReaders.ExtractionMethod import ExtractionMethod
+from CombinaTorch.Tasks.TaskDataset import TaskDataset
 
 
 class HoldTaskDataset(TaskDataset):

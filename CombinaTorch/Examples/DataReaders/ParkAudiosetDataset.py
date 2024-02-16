@@ -5,9 +5,9 @@ from timeit import default_timer as timer
 import joblib
 import pandas as pd
 
-from DataReaders.DataReader import DataReader
-from Tasks.Task import MultiLabelTask, MultiClassTask
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.DataReader import DataReader
+from CombinaTorch.Tasks.Task import MultiLabelTask, MultiClassTask
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 
 
 class ParkAudiosetDataset(DataReader):

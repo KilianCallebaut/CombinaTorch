@@ -1,6 +1,6 @@
 import torch
 
-from Training.Results import Results
+from CombinaTorch.Training.Results import Results
 
 
 class TrainingUtils:

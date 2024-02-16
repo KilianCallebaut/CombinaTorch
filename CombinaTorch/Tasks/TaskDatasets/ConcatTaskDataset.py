@@ -2,8 +2,8 @@ from typing import List
 
 from torch.utils.data import ConcatDataset
 
-from Tasks.Task import Task
-from Tasks.TaskDatasets.TaskDataset import TaskDataset
+from CombinaTorch.Tasks.Task import Task
+from CombinaTorch.Tasks.TaskDatasets.TaskDataset import TaskDataset
 
 
 class ConcatTaskDataset(ConcatDataset):

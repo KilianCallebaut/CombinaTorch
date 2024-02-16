@@ -6,8 +6,8 @@ import librosa
 import librosa.display
 import numpy as np
 import soundfile
-from DataReaders.ExtractionMethod import ExtractionMethod
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.ExtractionMethod import ExtractionMethod
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 from scipy import signal
 
 

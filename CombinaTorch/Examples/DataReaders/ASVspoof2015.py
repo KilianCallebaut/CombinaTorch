@@ -7,9 +7,9 @@ import pandas as pd
 import torch
 from numpy import long
 
-from DataReaders.DataReader import DataReader
-from Tasks.Task import MultiClassTask
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.DataReader import DataReader
+from CombinaTorch.Tasks.Task import MultiClassTask
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 
 
 class ASVspoof2015(DataReader):

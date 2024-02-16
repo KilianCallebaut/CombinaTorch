@@ -9,7 +9,7 @@ import torch
 from sklearn import metrics
 from torch.utils.tensorboard import SummaryWriter
 
-from Tasks.Task import Task
+from CombinaTorch.Tasks.Task import Task
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 drive = 'F'

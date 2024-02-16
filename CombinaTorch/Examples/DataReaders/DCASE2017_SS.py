@@ -4,9 +4,9 @@ import joblib
 from dcase_util.datasets import TUTAcousticScenes_2017_DevelopmentSet, TUTAcousticScenes_2017_EvaluationSet
 from numpy import long
 
-from DataReaders.DataReader import DataReader
-from Tasks.Task import MultiClassTask
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.DataReader import DataReader
+from CombinaTorch.Tasks.Task import MultiClassTask
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 
 
 class DCASE2017_SS(DataReader):

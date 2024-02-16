@@ -5,15 +5,15 @@ import sys
 from torch import optim
 from torch.utils.data import DataLoader
 
-from DataReaders.ASVspoof2015 import ASVspoof2015
-from DataReaders.DCASE2017_SS import DCASE2017_SS
-from DataReaders.ExtractionMethod import PerCelStandardizing, LogbankSummaryExtraction, \
+from CombinaTorch.DataReaders.ASVspoof2015 import ASVspoof2015
+from CombinaTorch.DataReaders.DCASE2017_SS import DCASE2017_SS
+from CombinaTorch.DataReaders.ExtractionMethod import PerCelStandardizing, LogbankSummaryExtraction, \
     NeutralExtractionMethod, LogbankExtraction, SummaryPreparation
-from DataReaders.Ravdess import Ravdess
-from MultiTask.MultiTaskHardSharing import MultiTaskHardSharing
-from MultiTask.MultiTaskModelFactory import MultiTaskModelFactory
-from Tasks.TrainingSetCreator import ConcatTrainingSetCreator
-from Training.Training import Training
+from CombinaTorch.DataReaders.Ravdess import Ravdess
+from CombinaTorch.MultiTask.MultiTaskHardSharing import MultiTaskHardSharing
+from CombinaTorch.MultiTask.MultiTaskModelFactory import MultiTaskModelFactory
+from CombinaTorch.Tasks.TrainingSetCreator import ConcatTrainingSetCreator
+from CombinaTorch.Training.Training import Training
 
 drive = r"E:/"
 

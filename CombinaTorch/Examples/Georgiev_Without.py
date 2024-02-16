@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 from torch.utils.data import ConcatDataset, Dataset
 from torch.utils.tensorboard import SummaryWriter
 
-from MultiTask.GeorgievMultiDNN import GeorgievMultiDNN
+from CombinaTorch.MultiTask.GeorgievMultiDNN import GeorgievMultiDNN
 
 drive = r"E:/"
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

@@ -6,9 +6,9 @@ import joblib
 import numpy as np
 import torch
 
-from DataReaders.DataReader import DataReader
-from Tasks.Task import MultiLabelTask
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.DataReader import DataReader
+from CombinaTorch.Tasks.Task import MultiLabelTask
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 
 
 class ChenAudiosetDataset(DataReader):

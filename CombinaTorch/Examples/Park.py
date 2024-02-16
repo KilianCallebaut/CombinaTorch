@@ -6,11 +6,11 @@ import torch
 from torch import optim
 from torch.utils.data import DataLoader
 
-from DataReaders.ExtractionMethod import NeutralExtractionMethod, PerDimensionStandardizing
-from DataReaders.ParkAudiosetDataset import ParkAudiosetDataset
-from MultiTask.ParkClassifier import ParkClassifier
-from Tasks.TrainingSetCreator import ConcatTrainingSetCreator
-from Training.Training import Training
+from CombinaTorch.DataReaders.ExtractionMethod import NeutralExtractionMethod, PerDimensionStandardizing
+from CombinaTorch.DataReaders.ParkAudiosetDataset import ParkAudiosetDataset
+from CombinaTorch.MultiTask.ParkClassifier import ParkClassifier
+from CombinaTorch.Tasks.TrainingSetCreator import ConcatTrainingSetCreator
+from CombinaTorch.Training.Training import Training
 
 drive = r"E:/"
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

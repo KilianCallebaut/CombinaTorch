@@ -8,8 +8,8 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 
-from DataReaders.ExtractionMethod import ExtractionMethod
-from Tasks.Task import Task
+from CombinaTorch.DataReaders.ExtractionMethod import ExtractionMethod
+from CombinaTorch.Tasks.Task import Task
 
 
 # In index mode:

@@ -2,7 +2,7 @@ from typing import List
 
 from torch import nn
 
-from Tasks.Task import Task
+from CombinaTorch.Tasks.Task import Task
 
 
 class ParkClassifier(nn.Module):

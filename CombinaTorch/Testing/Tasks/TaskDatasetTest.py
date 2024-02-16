@@ -3,9 +3,9 @@ import copy
 import soundfile
 import torch
 import unittest
-from DataReaders.ExtractionMethod import NeutralExtractionMethod, LogbankExtraction, FilterBankExtractionMethod, \
+from CombinaTorch.DataReaders.ExtractionMethod import NeutralExtractionMethod, LogbankExtraction, FilterBankExtractionMethod, \
     MelSpectrogramExtractionMethod
-from Tasks.TaskDataset import TaskDataset
+from CombinaTorch.Tasks.TaskDataset import TaskDataset
 
 class TaskDatasetTest(unittest.TestCase):
     def test_index_mode_storage(self):

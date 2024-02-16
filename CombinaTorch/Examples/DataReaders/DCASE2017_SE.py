@@ -5,9 +5,9 @@ import dcase_util
 import joblib
 from dcase_util.datasets import TUTSoundEvents_2017_DevelopmentSet, TUTSoundEvents_2017_EvaluationSet
 
-from DataReaders.DataReader import DataReader
-from Tasks.Task import MultiLabelTask
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.DataReader import DataReader
+from CombinaTorch.Tasks.Task import MultiLabelTask
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 
 
 class DCASE2017_SE(DataReader):

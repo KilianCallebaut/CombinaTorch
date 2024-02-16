@@ -2,9 +2,9 @@ import unittest
 
 import torch
 
-from DataReaders.ExtractionMethod import NeutralExtractionMethod
-from Tasks.Task import Task, MultiClassTask
-from Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
+from CombinaTorch.DataReaders.ExtractionMethod import NeutralExtractionMethod
+from CombinaTorch.Tasks.Task import Task, MultiClassTask
+from CombinaTorch.Tasks.TaskDatasets.HoldTaskDataset import HoldTaskDataset
 
 
 class MyTestCase(unittest.TestCase):
