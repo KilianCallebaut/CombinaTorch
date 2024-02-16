@@ -5,7 +5,7 @@ import torch.optim as optim
 from torch import nn
 from torch.utils.data import ConcatDataset
 
-from CombinaTorch.Tasks.ConcatTaskDataset import ConcatTaskDataset
+from CombinaTorch.Tasks.TaskDatasets.ConcatTaskDataset import ConcatTaskDataset
 from CombinaTorch.Tasks.Samplers.MultiTaskSampler import MultiTaskSampler
 from CombinaTorch.Training.Results import Results
 from CombinaTorch.Training.TrainingUtils import TrainingUtils
